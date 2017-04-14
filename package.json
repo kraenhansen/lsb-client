@@ -4,21 +4,25 @@
   "description": "A wrapper around the Laan & Spar bank (based on sdc.dk) webservice",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "mocha -w"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/kraenhansen/lsb-client.git"
   },
   "keywords": [
-    "Lån",
-    "&",
-    "Spar"
+    "Lån&Spar",
+    "SDC"
   ],
   "author": "Kræn Hansen <mail@kraenhansen.dk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kraenhansen/lsb-client/issues"
   },
-  "homepage": "https://github.com/kraenhansen/lsb-client#readme"
+  "homepage": "https://github.com/kraenhansen/lsb-client#readme",
+  "devDependencies": {
+    "dotenv": "^2.0.0",
+    "mocha": "^3.2.0"
+  }
 }
