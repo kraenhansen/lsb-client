@@ -24,5 +24,8 @@
   "devDependencies": {
     "dotenv": "^2.0.0",
     "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "sdc-client": "git+https://github.com/kraenhansen/sdc-client.git"
   }
 }
